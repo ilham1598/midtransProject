@@ -25,33 +25,25 @@ WebUI.click(findTestObject('Object Repository/orderMidtrans/btnBuyNow'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/orderMidtrans/verifyShoppingCart'), 1)
 
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputPillow'))
-
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputPillow'), GlobalVariable.amount)
 
 WebUI.verifyElementText(findTestObject('Object Repository/orderMidtrans/verifyTotalAmount'), '50,000')
 
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputName'))
-
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputName'), GlobalVariable.name)
-
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputEmail'))
 
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputEmail'), GlobalVariable.email)
 
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputPhone'))
-
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputPhone'), GlobalVariable.phoneNo)
-
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputCity'))
 
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputCity'), GlobalVariable.city)
 
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputAddress'))
-
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputAddress'), GlobalVariable.address)
 
-WebUI.clearText(findTestObject('Object Repository/orderMidtrans/inputPostalCode'))
-
 WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputPostalCode'), GlobalVariable.postalCode)
+
+WebUI.click(findTestObject('Object Repository/orderMidtrans/btnCheckout'))
+
+WebUI.click(findTestObject('Object Repository/orderMidtrans/paymentVA'))
+
+
 
