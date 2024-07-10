@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>popUpPayment</name>
+   <name>paymentVABCA</name>
    <tag></tag>
-   <elementGuidId>64fdc113-b161-4252-801e-0999723f2770</elementGuidId>
+   <elementGuidId>5a8f544d-e749-4c6a-8ff3-4ccd41b39a9e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;snap-midtrans&quot;]</value>
+         <value>//*[@id=&quot;application&quot;]//a[contains(@href, 'bca-va')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>getVAnumber</name>
+   <tag></tag>
+   <elementGuidId>031cffa4-d8b7-4ec5-bcb1-ecd96e82f832</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;vaField&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;vaField&quot;]//*[contains(text())='${vaNumber}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;vaField&quot;]//*[contains(text())='${vaNumber}']</value>
+      <webElementGuid>ab7fe1bb-5ed8-4aa2-bce1-9ad780b6b13f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

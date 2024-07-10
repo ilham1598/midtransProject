@@ -43,7 +43,13 @@ WebUI.setText(findTestObject('Object Repository/orderMidtrans/inputPostalCode'),
 
 WebUI.click(findTestObject('Object Repository/orderMidtrans/btnCheckout'))
 
+WebUI.switchToFrame(findTestObject('Object Repository/orderMidtrans/popUpPayment'), 3)
+
 WebUI.click(findTestObject('Object Repository/orderMidtrans/paymentVA'))
+
+WebUI.click(findTestObject('Object Repository/orderMidtrans/paymentVABCA'))
+
+GlobalVariable.vaNumber = WebUI.getText(findTestObject('Object Repository/orderMidtrans/getVAnumber'))
 
 
 

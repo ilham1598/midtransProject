@@ -44,4 +44,9 @@
       <initValue>'11052'</initValue>
       <name>postalCode</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>vaNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
