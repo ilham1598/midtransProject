@@ -49,4 +49,14 @@
       <initValue>''</initValue>
       <name>vaNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://simulator.sandbox.midtrans.com/'</initValue>
+      <name>urlPayment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>amountValidation</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
